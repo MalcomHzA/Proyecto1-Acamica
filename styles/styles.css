@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.container-header {
+  padding: 22px 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 120px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-left: 48px;
+}
+
+nav ul li a {
+  text-decoration-line: none;
+  font-family: "IBM Plex Mono";
+  font-size: 16px;
+  color: #060a24;
+  letter-spacing: 0;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+
+.logo-podcast {
+  width: 36px;
+  height: 36px;
+}
+
+.container-body {
+  margin-left: 200px;
+}
+
+h1 {
+  font-family: "IBM Plex Sans";
+  font-weight: 400;
+  font-size: 64px;
+  color: #060a24;
+  letter-spacing: 0;
+}
+
+.line {
+  text-decoration-line: line-through;
+}
+
+.dot {
+  color: #0000ec;
+}
+
+.text-podcast {
+  font-family: "IBM Plex Mono";
+  font-weight: 400;
+  font-size: 16px;
+  color: #060a24;
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-bottom: 56px;
+  width: 628px;
+}
+
+.button-header {
+  text-align: center;
+  padding: 16px 0px;
+  background-color: #00f3bb;
+  width: 226px;
+}
+
+.text-button {
+  font-family: "IBM Plex Mono";
+  font-weight: 500;
+  font-size: 18px;
+  color: #060a24;
+  letter-spacing: 0;
+  text-align: center;
+  line-height: 24px;
+  text-decoration-line: none;
+}
+
+.section-episodios {
+  background-image: linear-gradient(225deg, #0000ff 0%, #0000a3 100%);
+  padding: 186px 100px 232.6px 100px;
+  transform: skew(0deg, -6deg);
+  overflow: hidden;
+  margin-top: 70px;
+}
+
+.container-episodios {
+  transform: skew(0deg, 6deg);
+}
+
+.title-light {
+  font-family: "IBM Plex Sans";
+  font-weight: 400;
+  font-size: 48px;
+  color: #ffffff;
+  letter-spacing: 0;
+  margin-bottom: 26px;
+}
+
+.title-episodios {
+  margin-left: 100px;
+}
+
+.container-spotify {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.container-iframe {
+  width: 43%;
+}
+
+.sp {
+  width: 100%;
+  height: 232px;
+}
+
+.spotify-1,
+.spotify-3 {
+  margin-right: 72px;
+}
+
+.spotify-1,
+.spotify-2 {
+  margin-bottom: 72px;
+}
+
+.spotify-3,
+.spotify-4 {
+  margin-bottom: 64px;
+}
