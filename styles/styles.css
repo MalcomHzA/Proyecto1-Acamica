@@ -89,7 +89,7 @@ h1 {
 
 .section-episodios {
   background-image: linear-gradient(225deg, #0000ff 0%, #0000a3 100%);
-  padding: 186px 100px 232.6px 100px;
+  padding: 186px 100px 100px 100px;
   transform: skew(0deg, -6deg);
   overflow: hidden;
   margin-top: 70px;
@@ -142,4 +142,63 @@ h1 {
 .spotify-3,
 .spotify-4 {
   margin-bottom: 64px;
+}
+
+/* section-nosotros */
+.section-nosotros {
+  margin: 0 auto;
+}
+
+.container-nosotros {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 100px;
+}
+
+.info-nosotros {
+  height: 300px;
+}
+
+.texto-nosotros {
+  font-family: "IBM Plex Mono";
+  font-size: 16px;
+  font-weight: 400;
+  color: #060a24;
+  letter-spacing: 0;
+  line-height: 24px;
+  width: 464px;
+}
+
+.title-dark {
+  font-family: "IBM Plex Sans";
+  font-size: 48px;
+  font-weight: 400;
+  color: #060a24;
+  letter-spacing: 0;
+  margin-bottom: 24px;
+}
+
+.secretary-history {
+  position: relative;
+  bottom: 200px;
+  margin-right: 62.4px;
+  width: 410px;
+}
+
+/* section-invitados */
+
+.invitados {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.title-dark-2 {
+  margin: 64px 0 36px 200px;
+}
+
+.imagenes {
+  width: 33.33%;
+  width: calc(100% / 3);
 }
